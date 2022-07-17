@@ -328,5 +328,58 @@ html{
     animation: progreso2 2s forwards;
 }
 
+.contenedor-skills .skill .barra .barra-progeso3{
+    background-color: #fff;
+    width: 60%;
+    height: 6px;
+    animation: progreso3 2s forwards;
+}
+
+.contenedor-skills .skill .barra .barra-progeso4{
+    background-color: #fff;
+    width: 60%;
+    height: 6px;
+    animation: progreso4 2s forwards;
+}
+
+/* creamos animación de las barras */
+@keyframes progreso1 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 75%;
+    }
+}
+
+@keyframes progreso2 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 65%;
+    }
+}
+
+@keyframes progreso3 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes progreso4 {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+
+
 
 
