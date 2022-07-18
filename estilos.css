@@ -67,6 +67,10 @@ html{
     transition: .5s;
 }
 
+#inicio .contenido header .contenido-header .seleccionado{
+    color: #ff5080;
+}
+
 #inicio .contenido header .contenido-header .redes a:hover{
     color: #ff5080;
 }
